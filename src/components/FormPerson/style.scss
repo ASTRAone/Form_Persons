@@ -1,0 +1,114 @@
+.dotter {
+  border-bottom: 1px dotted red;
+}
+
+.dotter-black {
+  border-bottom: 1px dotted black;
+}
+
+.form-person {
+  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.form-person-header {
+  &__our {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-weight: 100;
+    color: red;
+  }
+
+  &__del {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__trash {
+    font-size: 25px;
+    color: red;
+  }
+
+  &__text {
+    color: #ff0000b5;
+    margin-left: 15px;
+  }
+
+  &__ticket {
+    margin-bottom: 30px;
+  }
+
+  &__checkbox {
+    margin-right: 15px;
+  }
+
+  &__label {
+    font-size: unset;
+  }
+}
+
+.form-person-content {
+  padding-bottom: 40px;
+
+  &__input {
+    display: block !important;
+    margin-top: 10px;
+    width: 350px;
+  }
+
+  &__input > input {
+    width: 350px;
+  }
+
+  &__our {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  &__marker {
+    margin-left: 10px;
+    color: red;
+  }
+
+  &__item {
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  &__btns {
+    text-align: center;
+    position: relative;
+  }
+
+  &__btns > button {
+    margin-right: 200px;
+    width: 120px;
+  }
+
+  &__btns > p {
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -35px;
+  }
+
+  &__btn:first-child {
+    margin-right: 200px;
+  }
+
+  &__err {
+    position: absolute;
+    bottom: -20px;
+    color: red;
+  }
+}

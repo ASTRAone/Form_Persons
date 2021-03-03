@@ -1,0 +1,24 @@
+.person-item {
+  width: 100%;
+  background: #f5f4f4;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__text {
+    font-size: 20px;
+  }
+
+  &__content {
+    cursor: pointer;
+  }
+}
+
+.fas.fa-user-times.circle {
+  font-size: 20px;
+  cursor: pointer;
+}

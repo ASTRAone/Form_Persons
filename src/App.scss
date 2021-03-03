@@ -1,0 +1,17 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+  &-header {
+    margin-bottom: 20px;
+  }
+
+  &-content {
+  }
+
+  &-btn {
+    width: 100%;
+    height: 50px;
+  }
+}
